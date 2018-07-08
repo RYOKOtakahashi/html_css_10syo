@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<!-- head要素 -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="10章【課題：Webページを作成してみよう】.css">
+    <title>  </title>
+</head>
+
+
+
+<!-- body要素 -->
+<body>
+
+	<!-- header -->
+    <header>
+        <div class="header-inside">
+    	    <!-- ロゴ -->
+    	    <!-- MySiteの部分はテキストではなく、logo.pngという画像を使用しています。この画像は先ほどダウンロードしたimgフォルダに格納されています。 -->
+    	    <div class="logo"></div>
+    	    <!-- navi -->
+    	    <nav>
+                <ul>
+                    <li > Portfolio </li>
+                    <li> Feature </li>
+                    <li> Profile </li>
+                    <li> Contact </li>
+                </ul>
+            </nav>
+            <!-- hamメニュー -->
+            <div id="ham-menu">
+                <ul>
+                    <li> Portfolio </li>
+                    <li> Feature </li>
+                    <li> Profile </li>
+                    <li> Contact </li>
+                </ul>
+            </div>
+            <div id="menu-background"></div>
+        </div>
+
+    </header>
+    <!-- headerここまで -->
+
+
+
+
+
+
+    <!-- main visual -->
+    <!-- 背景画像は画面幅に対して100%で設定してください。画像はダウンロードしたimgフォルダに入っているmv.pngを使用してください。 -->
+    <div class="main-visual">
+        <p class="main-visual-text-1"> Lorem Ipsum </p>
+        <p class="main-visual-text-2"> simply dummy text of the printing </p>
+    </div>
+    <!-- main visualここまで -->
+
+
+
+
+
+
+    <!-- main -->
+    <main>
+    	<!-- portfolio -->
+    	<!-- １：ポートフォリオで表示されている画像は背景画像として表示させてください、２：floatプロパティを使い、画像を横並びにしてみましょう -->
+        <div class="portfolio clearfix">
+            <div class="portfolio-inside clearfix">
+                <p class="portfolio-text-1"> Portfolio </p>
+                <p class="portfolio-text-2">
+                    It is a long established fact that a reader will be distracted by the readable <br>
+                    content of a page when looking at its layout.<br>
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <div class="portfolio-pic"></div>
+                <div class="portfolio-pic"></div>
+                <div class="portfolio-pic"></div>
+                <div class="portfolio-pic"></div>
+                <div class="portfolio-pic"></div>
+                <div class="portfolio-pic"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+    	<!-- feature -->
+    	<!-- １：strength1~3と表示しているものはFont-Awesomeのアイコンを使用、２：大きさが60pxであれば、画像どおりのアイコンではなくて好きなアイコンを使用してOK、３：入力するテキストに関しても同様に任意の文字列でOK、４：テキスト部分の高さはautoとなっていますが、これは中身の文字量に合わせて変化する部分ですので、高さの指定はなしで構いません。 -->
+    	<div class="feature clearfix">
+            <div class="feature-inside">
+                    <p class="feature-text-1"> Feature </p>
+                    <p class="feature-text-2"> It is a long established fact that a reader will be distracted by the readable <br>
+                    content of a page when looking at its layout.<br>
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <div class="feature-strength-1">
+                    <i class="fas fa-sun feature-strength-icon"></i>
+                    <p class="feature-strength-text-1"> Strength 1</p>
+                    <p class="feature-strength-text-2"> Contray to popular belief, Lorem Ipsum is not simply random text.  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Richard McClintock, a Latin professor at Hampden-Sydney College </br> in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+                <div class="feature-strength-2">
+                    <i class="fab fa-android feature-strength-icon"></i>
+                    <p class="feature-strength-text-1"> Strength 2</p>
+                    <p class="feature-strength-text-2"> Contray to popular belief, Lorem Ipsum is not simply random text.  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Richard McClintock, a Latin professor at Hampden-Sydney College </br> in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+                <div class="feature-strength-3">
+                    <i class="fas fa-crow feature-strength-icon"></i>
+                    <p class="feature-strength-text-1"> Strength 3</p>
+                    <p class="feature-strength-text-2"> Contray to popular belief, Lorem Ipsum is not simply random text.  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Richard McClintock, a Latin professor at Hampden-Sydney College </br> in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    	<!-- profile -->
+    	<div class="profile clearfix">
+            <div class="profile-inside">
+                <P class="profile-text-1"> Profile </P>
+                <p class="profile-text-2"> It is a long established fact that a reader will be distracted by the readable <br>
+                    content of a page when looking at its layout.<br>
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters </p>
+                <div class="profile-pic-box"> <div class="profile-pic"></div> </div>
+                <div class="profile-text-right">
+                    <p class="profile-text-3"> My Name </p>
+                    <p class="profile-text-4"> Contray to popular belief, Lorem Ipsum is not simply random text.  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up </br> one of the more obscure Latin words, consectetur </p>
+                    <p class="profile-text-5"> My Skills </p>
+                    <p class="profile-text-6"> HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    	<!-- contact -->
+    	<!-- フィーチャーと同じようにFont-Awesomeのアイコンを使用しています。SNSのアイコンを使用 -->
+        <div class="contact clearfix">
+            <div class="contact-inside">
+                <p class="contact-text-1"> Contact </p>
+                <p class="contact-text-2"> It is a long established fact that a reader will be distracted by the readable <br>
+                    content of a page when looking at its layout.<br>
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters </p>
+                <div class="contact-text-left">
+                    <p class="contact-text-3"> Mail </p>
+                    <a href="http://www.1.com" class="contact-text-4"> xxx＠xxx.com </a>
+                    <p class="contact-text-5"> Tell </p>
+                    <a href="http://www.1.com" class="contact-text-6"> 000-0000-0000 </a>
+                </div>
+                <div class="contact-text-right">
+                    <p class="sns"> SNS </p>
+                    <div class="contact-icons">
+                        <i class="fab fa-facebook-f contact-icon contact-icon-1"></i>
+                        <i class="fab fa-twitter contact-icon contact-icon-2"></i>
+                        <i class="fab fa-instagram contact-icon contact-icon-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- mainここまで -->
+
+
+
+    <!-- footer -->
+    <footer> <p class="著作権情報"> © 2017 WebCamp </p> </footer>
+
+</body>
+
+</html>
